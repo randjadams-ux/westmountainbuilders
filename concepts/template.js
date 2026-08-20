@@ -6,7 +6,7 @@ const topbar = document.querySelector('.topbar');
 topbar.innerHTML = `<a href="../index.html">← All concepts</a><a class="brand-lockup" href="../index.html" aria-label="West Mountain Builders concept selector"><span class="brand-mark"><i></i><b>WMB</b></span><span class="brand-words"><strong>West Mountain Builders</strong><small>Nampa, Idaho</small></span></a><nav><a href="#work">Services</a><a href="#process">Process</a><a href="tel:2088803797">208.880.3797</a></nav>`;
 
 const hero = document.querySelector('.hero');
-hero.insertAdjacentHTML('afterbegin', `<div class="hero-brand"><strong>West Mountain Builders</strong><span>Owner-operated by Jeremy Heistand · Nampa, Idaho</span></div>`);
+hero.insertAdjacentHTML('afterbegin', `<div class="hero-brand"><span class="brand-mark"><i></i><b>WMB</b></span><span class="hero-brand__words"><strong>West Mountain Builders</strong><span>Owner-operated by Jeremy Heistand · Nampa, Idaho</span></span></div>`);
 hero.querySelector('.eyebrow').textContent = 'Nampa, Idaho · General Contractor & Handyman';
 
 const heroCopy = {
